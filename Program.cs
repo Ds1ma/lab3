@@ -1,6 +1,6 @@
-﻿double s = 0;
-for (double i = Math.Sin(1); i >= Math.Sin(0.15); i = -0.05)
+double s = 0;
+    for(double i = 1; i >= 0.15; i -= 0.05)
 {
-    s += i;
+    s += Math.Sin(i);
 }
 Console.WriteLine(s);
